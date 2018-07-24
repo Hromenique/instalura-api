@@ -42,11 +42,11 @@ public class GeracaoDeCoisasController {
 	private void geraFotos(Integer usuarioId) {
 		Usuario usuario = em.find(Usuario.class, usuarioId);
 		Foto foto1 = new Foto(
-				"https://instagram.fcgh10-1.fna.fbcdn.net/t51.2885-15/e35/14482111_1635089460122802_8984023070045896704_n.jpg?ig_cache_key=MTM1MzEzNjM4NzAxMjIwODUyMw%3D%3D.2",
+				"https://i.pinimg.com/564x/ee/f7/79/eef77989d1053d1c36789ee799e79ff1.jpg",
 				"comentario da foto",
 				usuario);
 		Foto foto2 = new Foto(
-				"https://instagram.fcgh9-1.fna.fbcdn.net/t51.2885-15/e35/15276770_381074615568085_8052939980646907904_n.jpg?ig_cache_key=MTM5ODY4MDMyNjYyMDA1MDE4OQ%3D%3D.2",
+				"https://i.pinimg.com/564x/c5/d6/05/c5d6052d5c7cc33891c44b8c38448a83.jpg",
 				"comentario da foto",
 				usuario);
 		
